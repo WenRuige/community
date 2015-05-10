@@ -1,0 +1,645 @@
+[ 2015-03-19T15:00:06+08:00 ] 0.0.0.0 /bbs/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001651s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() C:\wamp\www\bbs\APP\Lib\Action\Home\IndexAction.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `project_login` [ RunTime:0.003373s ]
+SQL: SELECT * FROM `project_login`  [ RunTime:0.000251s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: sex C:\wamp\www\bbs\APP\Runtime\Cache\Home\36547c3cca62684d03e43575b05925a2.php 第 199 行.
+NOTIC: [8] Undefined index: sex C:\wamp\www\bbs\APP\Runtime\Cache\Home\36547c3cca62684d03e43575b05925a2.php 第 199 行.
+NOTIC: [8] Undefined index: sex C:\wamp\www\bbs\APP\Runtime\Cache\Home\36547c3cca62684d03e43575b05925a2.php 第 199 行.
+NOTIC: [8] Undefined index: sex C:\wamp\www\bbs\APP\Runtime\Cache\Home\36547c3cca62684d03e43575b05925a2.php 第 199 行.
+NOTIC: [8] Undefined index: sex C:\wamp\www\bbs\APP\Runtime\Cache\Home\36547c3cca62684d03e43575b05925a2.php 第 199 行.
+NOTIC: [8] Undefined index: sex C:\wamp\www\bbs\APP\Runtime\Cache\Home\36547c3cca62684d03e43575b05925a2.php 第 199 行.
+NOTIC: [8] Undefined index: sex C:\wamp\www\bbs\APP\Runtime\Cache\Home\36547c3cca62684d03e43575b05925a2.php 第 199 行.
+NOTIC: [8] Undefined index: sex C:\wamp\www\bbs\APP\Runtime\Cache\Home\36547c3cca62684d03e43575b05925a2.php 第 199 行.
+NOTIC: [8] Undefined index: sex C:\wamp\www\bbs\APP\Runtime\Cache\Home\36547c3cca62684d03e43575b05925a2.php 第 199 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013036s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000831s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000689s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000853s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003595s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000907s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000985s ]
+
+[ 2015-03-19T15:01:21+08:00 ] 0.0.0.0 /bbs/index.php/Members/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001027s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `project_login` [ RunTime:0.002762s ]
+NOTIC: [8] Undefined index: username C:\wamp\www\bbs\APP\Lib\Action\Home\MembersAction.class.php 第 8 行.
+SQL: SELECT `mid` FROM `project_login` WHERE ( username="" ) LIMIT 1   [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `project_members` [ RunTime:0.003198s ]
+SQL: select *from project_members where mid='' [ RunTime:0.000265s ]
+SQL: select *from project_members where mid='' [ RunTime:0.000236s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010460s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000731s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000507s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000313s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002321s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000549s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2015-03-19T15:01:24+08:00 ] 0.0.0.0 /bbs/index.php/Members/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000741s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `project_login` [ RunTime:0.002705s ]
+NOTIC: [8] Undefined index: username C:\wamp\www\bbs\APP\Lib\Action\Home\MembersAction.class.php 第 8 行.
+SQL: SELECT `mid` FROM `project_login` WHERE ( username="" ) LIMIT 1   [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `project_members` [ RunTime:0.002031s ]
+SQL: select *from project_members where mid='' [ RunTime:0.000246s ]
+SQL: select *from project_members where mid='' [ RunTime:0.000232s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009297s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000465s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000467s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000329s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002023s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000550s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2015-03-19T15:01:25+08:00 ] 0.0.0.0 /bbs/index.php/Members/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000666s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `project_login` [ RunTime:0.002171s ]
+NOTIC: [8] Undefined index: username C:\wamp\www\bbs\APP\Lib\Action\Home\MembersAction.class.php 第 8 行.
+SQL: SELECT `mid` FROM `project_login` WHERE ( username="" ) LIMIT 1   [ RunTime:0.000199s ]
+SQL: SHOW COLUMNS FROM `project_members` [ RunTime:0.002260s ]
+SQL: select *from project_members where mid='' [ RunTime:0.000261s ]
+SQL: select *from project_members where mid='' [ RunTime:0.000207s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008802s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000397s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000354s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000246s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001621s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000474s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2015-03-19T15:01:26+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000586s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007262s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000369s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000367s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000265s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001651s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000516s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2015-03-19T15:01:26+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/jquery.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000577s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 非法操作:js
+
+[ 2015-03-19T15:01:26+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/bootstrap.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000874s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 非法操作:js
+
+[ 2015-03-19T15:01:26+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/site.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001077s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001200s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 非法操作:js
+
+[ 2015-03-19T15:01:27+08:00 ] 0.0.0.0 /bbs/index.php/Check/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001071s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001221s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `project_login` [ RunTime:0.002493s ]
+NOTIC: [8] Undefined index: username C:\wamp\www\bbs\APP\Lib\Action\Home\CheckAction.class.php 第 8 行.
+SQL: SELECT `mid` FROM `project_login` WHERE ( username="" ) LIMIT 1   [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `project_temp` [ RunTime:0.002872s ]
+SQL: select *from project_temp where mid='' [ RunTime:0.000235s ]
+SQL: select *from project_temp where mid='' [ RunTime:0.000217s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010122s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000626s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000599s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000471s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002490s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000617s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000695s ]
+
+[ 2015-03-19T15:01:28+08:00 ] 0.0.0.0 /bbs/index.php/Messages/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001081s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001227s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `project_login` [ RunTime:0.002430s ]
+NOTIC: [8] Undefined index: username C:\wamp\www\bbs\APP\Lib\Action\Home\MessagesAction.class.php 第 8 行.
+SQL: SELECT `mid` FROM `project_login` WHERE ( username="" ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SHOW COLUMNS FROM `project_messages` [ RunTime:0.002786s ]
+SQL: select *from project_messages where mid='' [ RunTime:0.000235s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page C:\wamp\www\bbs\APP\Runtime\Cache\Home\d4a5125ada88e9e90d4e5c68512a85dc.php 第 194 行.
+NOTIC: [8] Undefined variable: page C:\wamp\www\bbs\APP\Runtime\Cache\Home\d4a5125ada88e9e90d4e5c68512a85dc.php 第 202 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013776s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000804s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000752s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000601s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000866s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003368s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000915s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001041s ]
+
+[ 2015-03-19T15:01:29+08:00 ] 0.0.0.0 /bbs/index.php/Check/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000704s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `project_login` [ RunTime:0.003020s ]
+NOTIC: [8] Undefined index: username C:\wamp\www\bbs\APP\Lib\Action\Home\CheckAction.class.php 第 8 行.
+SQL: SELECT `mid` FROM `project_login` WHERE ( username="" ) LIMIT 1   [ RunTime:0.000224s ]
+SQL: SHOW COLUMNS FROM `project_temp` [ RunTime:0.002131s ]
+SQL: select *from project_temp where mid='' [ RunTime:0.000217s ]
+SQL: select *from project_temp where mid='' [ RunTime:0.000219s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010398s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000913s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000774s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000556s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000814s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003412s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000873s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000991s ]
+
+[ 2015-03-19T15:01:33+08:00 ] 0.0.0.0 /bbs/index.php/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000835s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010829s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000527s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000816s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000687s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003348s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001163s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001294s ]
+
+[ 2015-03-19T15:01:35+08:00 ] 0.0.0.0 /bbs/index.php/Login/do_login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000715s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `project_login` [ RunTime:0.002534s ]
+SQL: SELECT * FROM `project_login` WHERE ( username="li" ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT * FROM `project_login` WHERE ( password="12345" ) LIMIT 1   [ RunTime:0.000191s ]
+SQL: SELECT `IsAdmin` FROM `project_login` WHERE ( username="li" ) LIMIT 1   [ RunTime:0.000157s ]
+SQL: SELECT `IsSystem` FROM `project_login` WHERE ( username="li" ) LIMIT 1   [ RunTime:0.000156s ]
+SQL: SELECT `IsMember` FROM `project_login` WHERE ( username="li" ) LIMIT 1   [ RunTime:0.000157s ]
+
+[ 2015-03-19T15:01:35+08:00 ] 0.0.0.0 /bbs/index.php/System/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000645s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: login C:\wamp\www\bbs\APP\Runtime\Cache\System\40f3148b8febce5614ec2cfe6855e420.php 第 194 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000415s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000425s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000302s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001835s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000508s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2015-03-19T15:01:35+08:00 ] 0.0.0.0 /bbs/index.php/System/Index/js/jquery.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000832s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 非法操作:js
+
+[ 2015-03-19T15:01:35+08:00 ] 0.0.0.0 /bbs/index.php/System/Index/js/bootstrap.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000743s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 非法操作:js
+
+[ 2015-03-19T15:01:35+08:00 ] 0.0.0.0 /bbs/index.php/System/Index/js/site.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000558s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 非法操作:js
+
+[ 2015-03-19T15:01:36+08:00 ] 0.0.0.0 /bbs/index.php/Members/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000873s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001042s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `project_login` [ RunTime:0.002253s ]
+SQL: SELECT `mid` FROM `project_login` WHERE ( username="li" ) LIMIT 1   [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `project_members` [ RunTime:0.002211s ]
+SQL: select *from project_members where mid='0' [ RunTime:0.000285s ]
+SQL: select *from project_members where mid='0' [ RunTime:0.000237s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009263s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000404s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000373s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000260s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001701s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000486s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2015-03-19T15:01:38+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000596s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006909s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000361s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000367s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000243s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001633s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000574s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2015-03-19T15:01:38+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/jquery.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000594s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 非法操作:js
+
+[ 2015-03-19T15:01:38+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/bootstrap.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001285s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001461s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001644s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 非法操作:js
+
+[ 2015-03-19T15:01:38+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/site.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000552s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 非法操作:js
+
+[ 2015-03-19T15:01:39+08:00 ] 0.0.0.0 /bbs/index.php/Check/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000589s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `project_login` [ RunTime:0.002302s ]
+SQL: SELECT `mid` FROM `project_login` WHERE ( username="li" ) LIMIT 1   [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `project_temp` [ RunTime:0.002321s ]
+SQL: select *from project_temp where mid='0' [ RunTime:0.000300s ]
+SQL: select *from project_temp where mid='0' [ RunTime:0.000255s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008188s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000358s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000343s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000247s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001583s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000465s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2015-03-19T15:27:02+08:00 ] 0.0.0.0 /bbs/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() C:\wamp\www\bbs\APP\Lib\Action\Home\IndexAction.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `project_login` [ RunTime:0.002192s ]
+SQL: SELECT * FROM `project_login`  [ RunTime:0.000251s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: sex C:\wamp\www\bbs\APP\Runtime\Cache\Home\36547c3cca62684d03e43575b05925a2.php 第 199 行.
+NOTIC: [8] Undefined index: sex C:\wamp\www\bbs\APP\Runtime\Cache\Home\36547c3cca62684d03e43575b05925a2.php 第 199 行.
+NOTIC: [8] Undefined index: sex C:\wamp\www\bbs\APP\Runtime\Cache\Home\36547c3cca62684d03e43575b05925a2.php 第 199 行.
+NOTIC: [8] Undefined index: sex C:\wamp\www\bbs\APP\Runtime\Cache\Home\36547c3cca62684d03e43575b05925a2.php 第 199 行.
+NOTIC: [8] Undefined index: sex C:\wamp\www\bbs\APP\Runtime\Cache\Home\36547c3cca62684d03e43575b05925a2.php 第 199 行.
+NOTIC: [8] Undefined index: sex C:\wamp\www\bbs\APP\Runtime\Cache\Home\36547c3cca62684d03e43575b05925a2.php 第 199 行.
+NOTIC: [8] Undefined index: sex C:\wamp\www\bbs\APP\Runtime\Cache\Home\36547c3cca62684d03e43575b05925a2.php 第 199 行.
+NOTIC: [8] Undefined index: sex C:\wamp\www\bbs\APP\Runtime\Cache\Home\36547c3cca62684d03e43575b05925a2.php 第 199 行.
+NOTIC: [8] Undefined index: sex C:\wamp\www\bbs\APP\Runtime\Cache\Home\36547c3cca62684d03e43575b05925a2.php 第 199 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009819s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000592s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000551s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000449s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002402s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000653s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000728s ]
+
+[ 2015-03-19T15:27:04+08:00 ] 0.0.0.0 /bbs/index.php/Members/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000883s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `project_login` [ RunTime:0.002443s ]
+SQL: SELECT `mid` FROM `project_login` WHERE ( username="li" ) LIMIT 1   [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `project_members` [ RunTime:0.002773s ]
+SQL: select *from project_members where mid='0' [ RunTime:0.001338s ]
+SQL: select *from project_members where mid='0' [ RunTime:0.000276s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010227s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000487s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000457s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000381s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002119s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000770s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000856s ]
+
+[ 2015-03-19T15:27:07+08:00 ] 0.0.0.0 /bbs/index.php/Members/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000653s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `project_login` [ RunTime:0.003107s ]
+SQL: SELECT `mid` FROM `project_login` WHERE ( username="li" ) LIMIT 1   [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `project_members` [ RunTime:0.002153s ]
+SQL: select *from project_members where mid='0' [ RunTime:0.000280s ]
+SQL: select *from project_members where mid='0' [ RunTime:0.000256s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009633s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000451s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000658s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000500s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002445s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000624s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000707s ]
+
+[ 2015-03-19T15:27:08+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000626s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007983s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000387s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000390s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000350s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001817s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000703s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2015-03-19T15:27:08+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/bootstrap.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001201s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001368s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001426s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 非法操作:js
+
+[ 2015-03-19T15:27:08+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/jquery.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000865s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 非法操作:js
+
+[ 2015-03-19T15:27:08+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/site.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000737s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 非法操作:js
+
+[ 2015-03-19T15:27:08+08:00 ] 0.0.0.0 /bbs/index.php/Check/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000726s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `project_login` [ RunTime:0.002052s ]
+SQL: SELECT `mid` FROM `project_login` WHERE ( username="li" ) LIMIT 1   [ RunTime:0.000192s ]
+SQL: SHOW COLUMNS FROM `project_temp` [ RunTime:0.002027s ]
+SQL: select *from project_temp where mid='0' [ RunTime:0.000214s ]
+SQL: select *from project_temp where mid='0' [ RunTime:0.000222s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011963s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000525s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000506s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000374s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002252s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000657s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000748s ]
+
+[ 2015-03-19T15:27:09+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000701s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008217s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000485s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000460s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000356s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002037s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000652s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000727s ]
+
+[ 2015-03-19T15:27:09+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/bootstrap.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000621s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 非法操作:js
+
+[ 2015-03-19T15:27:09+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/jquery.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001060s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001208s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 非法操作:js
+
+[ 2015-03-19T15:27:09+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/site.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000555s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 非法操作:js
+

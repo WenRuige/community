@@ -1,0 +1,504 @@
+[ 2015-04-20T12:51:20+08:00 ] 0.0.0.0 /bbs/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002654s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+
+[ 2015-04-20T12:51:20+08:00 ] 0.0.0.0 /bbs/index.php/Front/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000990s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001100s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `project_activityview` [ RunTime:0.010568s ]
+SQL: select *from project_Acticityview limit 5 [ RunTime:0.000374s ]
+ERR: 1146:Table 'project.project_acticityview' doesn't exist
+ [ SQL语句 ] : select *from project_Acticityview limit 5
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\bbs\APP\Lib\Action\Front\IndexAction.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `project_activityview` WHERE ( id ) LIMIT 1   [ RunTime:0.000816s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\bbs\APP\Lib\Action\Front\IndexAction.class.php 第 25 行.
+SQL: SELECT * FROM `project_activityview` WHERE ( id ) ORDER BY id LIMIT 0,5   [ RunTime:0.000729s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: keywords C:\wamp\www\bbs\APP\Runtime\Cache\Front\5ffd3287b2316bf5411dfb0772484ac2.php 第 472 行.
+NOTIC: [8] A non well formed numeric value encountered C:\wamp\www\bbs\APP\Runtime\Cache\Front\5ffd3287b2316bf5411dfb0772484ac2.php 第 490 行.
+NOTIC: [8] Undefined index: click C:\wamp\www\bbs\APP\Runtime\Cache\Front\5ffd3287b2316bf5411dfb0772484ac2.php 第 494 行.
+NOTIC: [8] Undefined index: text C:\wamp\www\bbs\APP\Runtime\Cache\Front\5ffd3287b2316bf5411dfb0772484ac2.php 第 498 行.
+NOTIC: [8] Undefined index: keywords C:\wamp\www\bbs\APP\Runtime\Cache\Front\5ffd3287b2316bf5411dfb0772484ac2.php 第 472 行.
+NOTIC: [8] A non well formed numeric value encountered C:\wamp\www\bbs\APP\Runtime\Cache\Front\5ffd3287b2316bf5411dfb0772484ac2.php 第 490 行.
+NOTIC: [8] Undefined index: click C:\wamp\www\bbs\APP\Runtime\Cache\Front\5ffd3287b2316bf5411dfb0772484ac2.php 第 494 行.
+NOTIC: [8] Undefined index: text C:\wamp\www\bbs\APP\Runtime\Cache\Front\5ffd3287b2316bf5411dfb0772484ac2.php 第 498 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018970s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000863s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000893s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000564s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003322s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000902s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000992s ]
+
+[ 2015-04-20T12:51:22+08:00 ] 0.0.0.0 /bbs/index.php/Front/Show/index/id/11
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000574s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `project_activityview` [ RunTime:0.003353s ]
+SQL: select * from project_activityview where id='11' [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `project_frontlogin` [ RunTime:0.004232s ]
+NOTIC: [8] Undefined index: name C:\wamp\www\bbs\APP\Lib\Action\Front\ShowAction.class.php 第 14 行.
+SQL: select * from project_frontlogin where nickname='' [ RunTime:0.000209s ]
+SQL: SHOW COLUMNS FROM `project_commentview` [ RunTime:0.004472s ]
+SQL: select * from project_Commentview where mid='11' [ RunTime:0.000533s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: family C:\wamp\www\bbs\APP\Runtime\Cache\Front\a8341a851c1ffaa3ea195ff76eb02bf6.php 第 200 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013500s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000472s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000374s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000262s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001750s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000467s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2015-04-20T12:51:29+08:00 ] 0.0.0.0 /bbs/index.php/Front/Show/do_login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000756s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `project_frontlogin` [ RunTime:0.002368s ]
+SQL: SELECT * FROM `project_frontlogin` WHERE ( nickname="他予她梦" ) LIMIT 1   [ RunTime:0.000253s ]
+
+[ 2015-04-20T12:51:31+08:00 ] 0.0.0.0 /bbs/index.php/Front/Show/index/id/10
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000782s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `project_activityview` [ RunTime:0.002497s ]
+SQL: select * from project_activityview where id='10' [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `project_frontlogin` [ RunTime:0.001957s ]
+SQL: select * from project_frontlogin where nickname='他予她梦' [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `project_commentview` [ RunTime:0.002434s ]
+SQL: select * from project_Commentview where mid='10' [ RunTime:0.000352s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: family C:\wamp\www\bbs\APP\Runtime\Cache\Front\a8341a851c1ffaa3ea195ff76eb02bf6.php 第 200 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012947s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000518s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000440s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000323s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002069s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000462s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2015-04-20T12:51:35+08:00 ] 0.0.0.0 /bbs/index.php/Front/Show/index/id/11
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000943s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `project_activityview` [ RunTime:0.003427s ]
+SQL: select * from project_activityview where id='11' [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `project_frontlogin` [ RunTime:0.002727s ]
+SQL: select * from project_frontlogin where nickname='他予她梦' [ RunTime:0.000208s ]
+SQL: SHOW COLUMNS FROM `project_commentview` [ RunTime:0.002115s ]
+SQL: select * from project_Commentview where mid='11' [ RunTime:0.000348s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: family C:\wamp\www\bbs\APP\Runtime\Cache\Front\a8341a851c1ffaa3ea195ff76eb02bf6.php 第 200 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013238s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000460s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000364s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000253s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001756s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000492s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2015-04-20T12:51:43+08:00 ] 0.0.0.0 /bbs/index.php/Front/Show/do_comment
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000784s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `project_frontlogin` [ RunTime:0.003215s ]
+SQL: SELECT `id` FROM `project_frontlogin` WHERE ( nickname='他予她梦' ) LIMIT 1   [ RunTime:0.000191s ]
+SQL: SHOW COLUMNS FROM `project_messages` [ RunTime:0.001889s ]
+NOTIC: [8] Undefined variable: value C:\wamp\www\bbs\APP\Lib\Action\Front\ShowAction.class.php 第 33 行.
+SQL: INSERT INTO `project_messages` (`logintime`,`content`,`mid`,`id`) VALUES ('2015-04-20 12:51:43','太棒了',11,30) [ RunTime:0.004508s ]
+
+[ 2015-04-20T12:51:46+08:00 ] 0.0.0.0 /bbs/index.php/Front/Show/index/id/11
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001166s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001324s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `project_activityview` [ RunTime:0.003587s ]
+SQL: select * from project_activityview where id='11' [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `project_frontlogin` [ RunTime:0.001909s ]
+SQL: select * from project_frontlogin where nickname='他予她梦' [ RunTime:0.000185s ]
+SQL: SHOW COLUMNS FROM `project_commentview` [ RunTime:0.002161s ]
+SQL: select * from project_Commentview where mid='11' [ RunTime:0.000353s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: family C:\wamp\www\bbs\APP\Runtime\Cache\Front\a8341a851c1ffaa3ea195ff76eb02bf6.php 第 200 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014072s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000442s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000359s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000249s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001749s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000485s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000580s ]
+
+[ 2015-04-20T12:51:49+08:00 ] 0.0.0.0 /bbs/index.php/Front/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000745s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `project_activityview` [ RunTime:0.002589s ]
+SQL: select *from project_Acticityview limit 5 [ RunTime:0.000308s ]
+ERR: 1146:Table 'project.project_acticityview' doesn't exist
+ [ SQL语句 ] : select *from project_Acticityview limit 5
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\bbs\APP\Lib\Action\Front\IndexAction.class.php 第 20 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `project_activityview` WHERE ( id ) LIMIT 1   [ RunTime:0.000611s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp\www\bbs\APP\Lib\Action\Front\IndexAction.class.php 第 25 行.
+SQL: SELECT * FROM `project_activityview` WHERE ( id ) ORDER BY id LIMIT 0,5   [ RunTime:0.000544s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: keywords C:\wamp\www\bbs\APP\Runtime\Cache\Front\5ffd3287b2316bf5411dfb0772484ac2.php 第 472 行.
+NOTIC: [8] A non well formed numeric value encountered C:\wamp\www\bbs\APP\Runtime\Cache\Front\5ffd3287b2316bf5411dfb0772484ac2.php 第 490 行.
+NOTIC: [8] Undefined index: click C:\wamp\www\bbs\APP\Runtime\Cache\Front\5ffd3287b2316bf5411dfb0772484ac2.php 第 494 行.
+NOTIC: [8] Undefined index: text C:\wamp\www\bbs\APP\Runtime\Cache\Front\5ffd3287b2316bf5411dfb0772484ac2.php 第 498 行.
+NOTIC: [8] Undefined index: keywords C:\wamp\www\bbs\APP\Runtime\Cache\Front\5ffd3287b2316bf5411dfb0772484ac2.php 第 472 行.
+NOTIC: [8] A non well formed numeric value encountered C:\wamp\www\bbs\APP\Runtime\Cache\Front\5ffd3287b2316bf5411dfb0772484ac2.php 第 490 行.
+NOTIC: [8] Undefined index: click C:\wamp\www\bbs\APP\Runtime\Cache\Front\5ffd3287b2316bf5411dfb0772484ac2.php 第 494 行.
+NOTIC: [8] Undefined index: text C:\wamp\www\bbs\APP\Runtime\Cache\Front\5ffd3287b2316bf5411dfb0772484ac2.php 第 498 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012650s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000544s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000373s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000254s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001820s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000488s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2015-04-20T12:51:50+08:00 ] 0.0.0.0 /bbs/index.php/Front/Show/do_login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000826s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `project_frontlogin` [ RunTime:0.002392s ]
+SQL: SELECT * FROM `project_frontlogin` WHERE ( nickname="他予她梦" ) LIMIT 1   [ RunTime:0.000257s ]
+
+[ 2015-04-20T12:51:54+08:00 ] 0.0.0.0 /bbs/index.php/Front/Show/index/id/11
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000587s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `project_activityview` [ RunTime:0.002996s ]
+SQL: select * from project_activityview where id='11' [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `project_frontlogin` [ RunTime:0.002140s ]
+SQL: select * from project_frontlogin where nickname='他予她梦' [ RunTime:0.000183s ]
+SQL: SHOW COLUMNS FROM `project_commentview` [ RunTime:0.002144s ]
+SQL: select * from project_Commentview where mid='11' [ RunTime:0.000584s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: family C:\wamp\www\bbs\APP\Runtime\Cache\Front\a8341a851c1ffaa3ea195ff76eb02bf6.php 第 200 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014219s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000583s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000566s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000455s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002456s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000598s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000680s ]
+
+[ 2015-04-20T12:53:02+08:00 ] 0.0.0.0 /bbs/index.php/Front/Show/do_login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `project_frontlogin` [ RunTime:0.002687s ]
+SQL: SELECT * FROM `project_frontlogin` WHERE ( nickname="他予她梦" ) LIMIT 1   [ RunTime:0.000272s ]
+
+[ 2015-04-20T12:53:45+08:00 ] 0.0.0.0 /bbs/index.php/Front/Show/do_login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `project_frontlogin` [ RunTime:0.002281s ]
+SQL: SELECT * FROM `project_frontlogin` WHERE ( nickname="他予她梦" ) LIMIT 1   [ RunTime:0.000241s ]
+
+[ 2015-04-20T12:53:50+08:00 ] 0.0.0.0 /bbs/index.php/Admin/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T12:53:50+08:00 ] 0.0.0.0 /bbs/index.php/Admin/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T12:53:50+08:00 ] 0.0.0.0 /bbs/index.php/Admin/js/site.js
+ERR: 非法操作:js
+
+[ 2015-04-20T12:53:51+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T12:53:51+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T12:53:51+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/site.js
+ERR: 非法操作:js
+
+[ 2015-04-20T12:53:52+08:00 ] 0.0.0.0 /bbs/index.php/Messages/index.html
+ERR: 无法加载模块:Messages
+
+[ 2015-04-20T12:53:54+08:00 ] 0.0.0.0 /bbs/index.php/Settings/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T12:53:54+08:00 ] 0.0.0.0 /bbs/index.php/Settings/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T12:53:54+08:00 ] 0.0.0.0 /bbs/index.php/Settings/js/site.js
+ERR: 非法操作:js
+
+[ 2015-04-20T12:53:55+08:00 ] 0.0.0.0 /bbs/index.php/Profile/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T12:53:55+08:00 ] 0.0.0.0 /bbs/index.php/Profile/js/site.js
+ERR: 非法操作:js
+
+[ 2015-04-20T12:53:55+08:00 ] 0.0.0.0 /bbs/index.php/Profile/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T12:53:55+08:00 ] 0.0.0.0 /bbs/index.php/Settings/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T12:53:55+08:00 ] 0.0.0.0 /bbs/index.php/Settings/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T12:53:55+08:00 ] 0.0.0.0 /bbs/index.php/Settings/js/site.js
+ERR: 非法操作:js
+
+[ 2015-04-20T12:53:58+08:00 ] 0.0.0.0 /bbs/index.php/Show/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T12:53:58+08:00 ] 0.0.0.0 /bbs/index.php/Show/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T12:53:58+08:00 ] 0.0.0.0 /bbs/index.php/Show/js/site.js
+ERR: 非法操作:js
+
+[ 2015-04-20T12:54:34+08:00 ] 0.0.0.0 /bbs/index.php/Admin/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T12:54:34+08:00 ] 0.0.0.0 /bbs/index.php/Admin/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T12:54:34+08:00 ] 0.0.0.0 /bbs/index.php/Admin/js/site.js
+ERR: 非法操作:js
+
+[ 2015-04-20T13:02:11+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T13:02:11+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/site.js
+ERR: 非法操作:js
+
+[ 2015-04-20T13:02:12+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T13:02:14+08:00 ] 0.0.0.0 /bbs/index.php/Messages/index.html
+ERR: 无法加载模块:Messages
+
+[ 2015-04-20T13:02:16+08:00 ] 0.0.0.0 /bbs/index.php/Message/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T13:02:16+08:00 ] 0.0.0.0 /bbs/index.php/Message/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T13:02:16+08:00 ] 0.0.0.0 /bbs/index.php/Message/js/site.js
+ERR: 非法操作:js
+
+[ 2015-04-20T13:02:18+08:00 ] 0.0.0.0 /bbs/index.php/Message/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T13:02:18+08:00 ] 0.0.0.0 /bbs/index.php/Message/js/site.js
+ERR: 非法操作:js
+
+[ 2015-04-20T13:02:18+08:00 ] 0.0.0.0 /bbs/index.php/Message/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T13:02:21+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/site.js
+ERR: 非法操作:js
+
+[ 2015-04-20T13:02:21+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T13:02:21+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T13:02:22+08:00 ] 0.0.0.0 /bbs/index.php/Messages/index.html
+ERR: 无法加载模块:Messages
+
+[ 2015-04-20T15:17:21+08:00 ] 0.0.0.0 /bbs/index.php/Register/js/jquery-1.11.1.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T15:17:21+08:00 ] 0.0.0.0 /bbs/index.php/Register/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T15:17:35+08:00 ] 0.0.0.0 /bbs/index.php/Register/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T15:17:35+08:00 ] 0.0.0.0 /bbs/index.php/Register/js/jquery-1.11.1.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T15:19:12+08:00 ] 0.0.0.0 /bbs/index.php/Admin/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T15:19:12+08:00 ] 0.0.0.0 /bbs/index.php/Admin/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T15:19:12+08:00 ] 0.0.0.0 /bbs/index.php/Admin/js/site.js
+ERR: 非法操作:js
+
+[ 2015-04-20T15:19:26+08:00 ] 0.0.0.0 /bbs/index.php/Home/Solve/add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `project_temp` [ RunTime:0.003154s ]
+SQL: SELECT `tid`,`sno`,`tname`,`tsex`,`tpicture`,`tphone`,`tdepartclass`,`mid`,`tcontent`,`IsAdmin`,`username` FROM `project_temp` WHERE ( tid="1" )  [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `project_members` [ RunTime:0.003023s ]
+SQL: INSERT INTO `project_members` (`sno`,`mname`,`msex`,`mphone`,`mpicture`,`mid`,`mdepartclass`,`loginip`,`logintime`,`username`) VALUES (213123,'123123123312','男','1103123','5534a8373e83c.jpg',8,'11223213','0.0.0.0','2015-04-20 15:19:26','gewenrui') [ RunTime:0.004163s ]
+SQL: SHOW COLUMNS FROM `project_login` [ RunTime:0.003125s ]
+SQL: UPDATE `project_login` SET `mid`=8,`loginip`='0.0.0.0',`logintime`='2015-04-20 15:19:26',`username`='gewenrui',`IsMember`=1 WHERE ( username='gewenrui' ) [ RunTime:0.004570s ]
+SQL: delete from project_temp where tid=1 [ RunTime:0.003510s ]
+NOTIC: [2] mysql_num_rows() expects parameter 1 to be resource, boolean given C:\wamp\www\bbs\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 109 行.
+
+[ 2015-04-20T15:20:24+08:00 ] 0.0.0.0 /bbs/index.php/Admin/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T15:20:24+08:00 ] 0.0.0.0 /bbs/index.php/Admin/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T15:20:24+08:00 ] 0.0.0.0 /bbs/index.php/Admin/js/site.js
+ERR: 非法操作:js
+
+[ 2015-04-20T15:20:26+08:00 ] 0.0.0.0 /bbs/index.php/Message/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T15:20:26+08:00 ] 0.0.0.0 /bbs/index.php/Message/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T15:20:26+08:00 ] 0.0.0.0 /bbs/index.php/Message/js/site.js
+ERR: 非法操作:js
+
+[ 2015-04-20T15:21:02+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T15:21:02+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T15:21:02+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/site.js
+ERR: 非法操作:js
+
+[ 2015-04-20T15:21:33+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T15:21:33+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/site.js
+ERR: 非法操作:js
+
+[ 2015-04-20T15:21:33+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T15:21:59+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T15:21:59+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/site.js
+ERR: 非法操作:js
+
+[ 2015-04-20T15:21:59+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T15:22:00+08:00 ] 0.0.0.0 /bbs/index.php/Profile/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T15:22:00+08:00 ] 0.0.0.0 /bbs/index.php/Profile/js/site.js
+ERR: 非法操作:js
+
+[ 2015-04-20T15:22:00+08:00 ] 0.0.0.0 /bbs/index.php/Profile/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T15:22:01+08:00 ] 0.0.0.0 /bbs/index.php/Settings/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T15:22:01+08:00 ] 0.0.0.0 /bbs/index.php/Settings/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T15:22:01+08:00 ] 0.0.0.0 /bbs/index.php/Settings/js/site.js
+ERR: 非法操作:js
+
+[ 2015-04-20T15:22:21+08:00 ] 0.0.0.0 /bbs/index.php/System/Index/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T15:22:21+08:00 ] 0.0.0.0 /bbs/index.php/System/Index/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-04-20T15:22:21+08:00 ] 0.0.0.0 /bbs/index.php/System/Index/js/site.js
+ERR: 非法操作:js
+
+[ 2015-04-20T21:44:34+08:00 ] 0.0.0.0 /bbs/index.php/Front/Show/do_login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003686s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `project_frontlogin` [ RunTime:0.009766s ]
+SQL: SELECT * FROM `project_frontlogin` WHERE ( nickname="他予她梦" ) LIMIT 1   [ RunTime:0.000869s ]
+
+[ 2015-04-20T22:06:10+08:00 ] 0.0.0.0 /bbs/index.php/Front/Show/do_login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002356s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `project_frontlogin` [ RunTime:0.010026s ]
+SQL: SELECT * FROM `project_frontlogin` WHERE ( nickname="他予她梦" ) LIMIT 1   [ RunTime:0.000829s ]
+

@@ -1,0 +1,7 @@
+[ 2015-04-22T20:48:08+08:00 ] 0.0.0.0 /bbs/index.php/Home/Index/love
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 非法操作:love
+

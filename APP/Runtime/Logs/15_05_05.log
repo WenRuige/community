@@ -1,0 +1,306 @@
+[ 2015-05-05T12:30:43+08:00 ] 0.0.0.0 /bbs/index.php/Front/Club/js/borsertocss.js
+ERR: 非法操作:js
+
+[ 2015-05-05T12:39:38+08:00 ] 0.0.0.0 /bbs/index.php/Front/Club/js/borsertocss.js
+ERR: 非法操作:js
+
+[ 2015-05-05T13:02:05+08:00 ] 0.0.0.0 /bbs/index.php/Admin/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T13:02:05+08:00 ] 0.0.0.0 /bbs/index.php/Admin/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T13:02:05+08:00 ] 0.0.0.0 /bbs/index.php/Admin/js/site.js
+ERR: 非法操作:js
+
+[ 2015-05-05T13:02:08+08:00 ] 0.0.0.0 /bbs/index.php/Message/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T13:02:08+08:00 ] 0.0.0.0 /bbs/index.php/Message/js/site.js
+ERR: 非法操作:js
+
+[ 2015-05-05T13:02:08+08:00 ] 0.0.0.0 /bbs/index.php/Message/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T13:02:50+08:00 ] 0.0.0.0 /bbs/index.php/Message/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T13:02:50+08:00 ] 0.0.0.0 /bbs/index.php/Message/js/site.js
+ERR: 非法操作:js
+
+[ 2015-05-05T13:02:50+08:00 ] 0.0.0.0 /bbs/index.php/Message/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T18:26:32+08:00 ] 0.0.0.0 /bbs/index.php/Front/Drtailed/index/id/
+ERR: 无法加载模块:Drtailed
+
+[ 2015-05-05T18:27:16+08:00 ] 0.0.0.0 /bbs/index.php/Front/Drtailed/index/id/
+ERR: 无法加载模块:Drtailed
+
+[ 2015-05-05T18:27:21+08:00 ] 0.0.0.0 /bbs/index.php/Front/Detailed/index/id/
+ERR: 参数错误或者未定义:id
+
+[ 2015-05-05T19:13:15+08:00 ] 0.0.0.0 /bbs/index.php/Admin/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T19:13:15+08:00 ] 0.0.0.0 /bbs/index.php/Admin/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T19:13:15+08:00 ] 0.0.0.0 /bbs/index.php/Admin/js/site.js
+ERR: 非法操作:js
+
+[ 2015-05-05T19:13:18+08:00 ] 0.0.0.0 /bbs/index.php/Profile/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T19:13:18+08:00 ] 0.0.0.0 /bbs/index.php/Profile/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T19:13:18+08:00 ] 0.0.0.0 /bbs/index.php/Profile/js/site.js
+ERR: 非法操作:js
+
+[ 2015-05-05T19:13:20+08:00 ] 0.0.0.0 /bbs/index.php/Settings/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T19:13:20+08:00 ] 0.0.0.0 /bbs/index.php/Settings/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T19:13:20+08:00 ] 0.0.0.0 /bbs/index.php/Settings/js/site.js
+ERR: 非法操作:js
+
+[ 2015-05-05T19:13:37+08:00 ] 0.0.0.0 /bbs/index.php/Settings/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T19:13:37+08:00 ] 0.0.0.0 /bbs/index.php/Settings/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T19:13:37+08:00 ] 0.0.0.0 /bbs/index.php/Settings/js/site.js
+ERR: 非法操作:js
+
+[ 2015-05-05T19:14:56+08:00 ] 0.0.0.0 /bbs/index.php/Front/Show/do_login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `project_frontlogin` [ RunTime:0.002846s ]
+SQL: SELECT * FROM `project_frontlogin` WHERE ( nickname="他予她梦" ) LIMIT 1   [ RunTime:0.000253s ]
+
+[ 2015-05-05T19:29:45+08:00 ] 0.0.0.0 /bbs/index.php/Front/Show/do_login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `project_frontlogin` [ RunTime:0.002996s ]
+SQL: SELECT * FROM `project_frontlogin` WHERE ( nickname="他予她梦" ) LIMIT 1   [ RunTime:0.000224s ]
+
+[ 2015-05-05T19:29:52+08:00 ] 0.0.0.0 /bbs/index.php/Front/Show/do_login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `project_frontlogin` [ RunTime:0.002703s ]
+SQL: SELECT * FROM `project_frontlogin` WHERE ( nickname="他予她梦" ) LIMIT 1   [ RunTime:0.000253s ]
+
+[ 2015-05-05T19:35:59+08:00 ] 0.0.0.0 /bbs/index.php/Front/Show/do_login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `project_frontlogin` [ RunTime:0.002564s ]
+SQL: SELECT * FROM `project_frontlogin` WHERE ( nickname="他予她梦" ) LIMIT 1   [ RunTime:0.000228s ]
+
+[ 2015-05-05T19:36:23+08:00 ] 0.0.0.0 /bbs/index.php/Front/Show/do_login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `project_frontlogin` [ RunTime:0.002909s ]
+SQL: SELECT * FROM `project_frontlogin` WHERE ( nickname="他予她梦" ) LIMIT 1   [ RunTime:0.000213s ]
+
+[ 2015-05-05T19:46:31+08:00 ] 0.0.0.0 /bbs/index.php/Front/Show/do_login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `project_frontlogin` [ RunTime:0.002398s ]
+SQL: SELECT * FROM `project_frontlogin` WHERE ( nickname="他予她梦" ) LIMIT 1   [ RunTime:0.000228s ]
+
+[ 2015-05-05T19:49:49+08:00 ] 0.0.0.0 /bbs/index.php/Front/Show/do_login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `project_frontlogin` [ RunTime:0.002470s ]
+SQL: SELECT * FROM `project_frontlogin` WHERE ( nickname="一头毛小驴" ) LIMIT 1   [ RunTime:0.000211s ]
+SQL: INSERT INTO `project_frontlogin` (`nickname`,`city`,`sex`,`year`,`picture`,`logintime`,`loginip`) VALUES ('一头毛小驴','哈尔滨','女','1994','http://q.qlogo.cn/qqapp/101204451/A7D6A3D5FD300FC91D60610BED6232EE/100','2015-05-05 19:49:49','0.0.0.0') [ RunTime:0.004268s ]
+
+[ 2015-05-05T19:54:56+08:00 ] 0.0.0.0 /bbs/index.php/System/Index/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T19:54:56+08:00 ] 0.0.0.0 /bbs/index.php/System/Index/js/site.js
+ERR: 非法操作:js
+
+[ 2015-05-05T19:54:56+08:00 ] 0.0.0.0 /bbs/index.php/System/Index/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T19:59:47+08:00 ] 0.0.0.0 /bbs/index.php/System/js/jquery.min.js
+ERR: 无法加载模块:js
+
+[ 2015-05-05T19:59:47+08:00 ] 0.0.0.0 /bbs/index.php/System/js/bootstrap.min.js
+ERR: 无法加载模块:js
+
+[ 2015-05-05T19:59:47+08:00 ] 0.0.0.0 /bbs/index.php/System/js/site.js
+ERR: 无法加载模块:js
+
+[ 2015-05-05T19:59:50+08:00 ] 0.0.0.0 /bbs/index.php/System/Banner/index.html
+ERR: 模板不存在[./APP/Tpl/System/Banner/index.html]
+
+[ 2015-05-05T20:00:17+08:00 ] 0.0.0.0 /bbs/index.php/Member/Previous/index.html
+ERR: 无法加载模块:Previous
+
+[ 2015-05-05T20:00:25+08:00 ] 0.0.0.0 /bbs/index.php/Member/Previous/index.html
+ERR: 无法加载模块:Previous
+
+[ 2015-05-05T20:02:33+08:00 ] 0.0.0.0 /bbs/index.php/Admin/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:02:33+08:00 ] 0.0.0.0 /bbs/index.php/Admin/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:02:33+08:00 ] 0.0.0.0 /bbs/index.php/Admin/js/site.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:02:37+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:02:37+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/site.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:02:37+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:02:40+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:02:40+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:02:40+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/site.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:04:19+08:00 ] 0.0.0.0 /bbs/index.php/System/Index/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:04:19+08:00 ] 0.0.0.0 /bbs/index.php/System/Index/js/site.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:04:19+08:00 ] 0.0.0.0 /bbs/index.php/System/Index/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:04:24+08:00 ] 0.0.0.0 /bbs/index.php/System/Banner/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:04:24+08:00 ] 0.0.0.0 /bbs/index.php/System/Banner/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:04:24+08:00 ] 0.0.0.0 /bbs/index.php/System/Banner/js/site.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:04:26+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:04:26+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/site.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:04:26+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:05:19+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:05:19+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/site.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:05:19+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:05:33+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:05:33+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:05:33+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/site.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:05:34+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:05:34+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:05:34+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/site.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:05:37+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/site.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:05:37+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:05:37+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:06:10+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:06:10+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:06:10+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/site.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:06:26+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:06:26+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/site.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:06:26+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:19:46+08:00 ] 0.0.0.0 /bbs/index.php/System/Banner/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:19:46+08:00 ] 0.0.0.0 /bbs/index.php/System/Banner/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:19:46+08:00 ] 0.0.0.0 /bbs/index.php/System/Banner/js/site.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:22:49+08:00 ] 0.0.0.0 /bbs/index.php/System/Banner/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:22:49+08:00 ] 0.0.0.0 /bbs/index.php/System/Banner/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:22:49+08:00 ] 0.0.0.0 /bbs/index.php/System/Banner/js/site.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:31:14+08:00 ] 0.0.0.0 /bbs/index.php/System/Banner/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:31:14+08:00 ] 0.0.0.0 /bbs/index.php/System/Banner/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:31:14+08:00 ] 0.0.0.0 /bbs/index.php/System/Banner/js/site.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:31:25+08:00 ] 0.0.0.0 /bbs/index.php/System/Banner/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:31:25+08:00 ] 0.0.0.0 /bbs/index.php/System/Banner/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-05T20:31:26+08:00 ] 0.0.0.0 /bbs/index.php/System/Banner/js/site.js
+ERR: 非法操作:js
+

@@ -1,0 +1,166 @@
+[ 2015-05-03T15:00:33+08:00 ] 0.0.0.0 /bbs/index.php/Front/Show/do_login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `project_frontlogin` [ RunTime:0.005665s ]
+SQL: SELECT * FROM `project_frontlogin` WHERE ( nickname="他予她梦" ) LIMIT 1   [ RunTime:0.000276s ]
+
+[ 2015-05-03T15:02:49+08:00 ] 0.0.0.0 /bbs/index.php/Front/Show/do_login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001733s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `project_frontlogin` [ RunTime:0.004765s ]
+SQL: SELECT * FROM `project_frontlogin` WHERE ( nickname="他予她梦" ) LIMIT 1   [ RunTime:0.000326s ]
+
+[ 2015-05-03T15:02:52+08:00 ] 0.0.0.0 /bbs/index.php/Home/Index/love
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 非法操作:love
+
+[ 2015-05-03T15:02:52+08:00 ] 0.0.0.0 /bbs/index.php/Front/Show/do_login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `project_frontlogin` [ RunTime:0.002426s ]
+SQL: SELECT * FROM `project_frontlogin` WHERE ( nickname="他予她梦" ) LIMIT 1   [ RunTime:0.000246s ]
+
+[ 2015-05-03T15:02:55+08:00 ] 0.0.0.0 /bbs/index.php/Home/Index/love
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 非法操作:love
+
+[ 2015-05-03T15:02:55+08:00 ] 0.0.0.0 /bbs/index.php/Front/Show/do_login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\bbs\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `project_frontlogin` [ RunTime:0.002888s ]
+SQL: SELECT * FROM `project_frontlogin` WHERE ( nickname="他予她梦" ) LIMIT 1   [ RunTime:0.000316s ]
+
+[ 2015-05-03T19:22:28+08:00 ] 0.0.0.0 /bbs/index.php/Admin/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-03T19:22:28+08:00 ] 0.0.0.0 /bbs/index.php/Admin/js/site.js
+ERR: 非法操作:js
+
+[ 2015-05-03T19:22:28+08:00 ] 0.0.0.0 /bbs/index.php/Admin/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-03T19:22:31+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-03T19:22:31+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-03T19:22:31+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/site.js
+ERR: 非法操作:js
+
+[ 2015-05-03T19:22:36+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-03T19:22:36+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-03T19:22:36+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/site.js
+ERR: 非法操作:js
+
+[ 2015-05-03T19:22:37+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-03T19:22:37+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-03T19:22:37+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/site.js
+ERR: 非法操作:js
+
+[ 2015-05-03T19:23:13+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-03T19:23:13+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-03T19:23:13+08:00 ] 0.0.0.0 /bbs/index.php/Tasks/js/site.js
+ERR: 非法操作:js
+
+[ 2015-05-03T19:32:16+08:00 ] 0.0.0.0 /bbs/index.php/Front/Index/club.html
+ERR: 非法操作:club
+
+[ 2015-05-03T19:37:59+08:00 ] 0.0.0.0 /bbs/index.php/Front/Index/club.html
+ERR: 非法操作:club
+
+[ 2015-05-03T19:39:34+08:00 ] 0.0.0.0 /bbs/index.php/Front/Index/club.html
+ERR: 非法操作:club
+
+[ 2015-05-03T19:39:38+08:00 ] 0.0.0.0 /bbs/index.php/Front/Index/club.html
+ERR: 非法操作:club
+
+[ 2015-05-03T19:49:17+08:00 ] 0.0.0.0 /bbs/index.php/Front/Index/club.html
+ERR: 非法操作:club
+
+[ 2015-05-03T19:50:03+08:00 ] 0.0.0.0 /bbs/index.php/Front/Show/index/id/
+ERR: 参数错误或者未定义:id
+
+[ 2015-05-03T19:53:34+08:00 ] 0.0.0.0 /bbs/index.php/Front/Club/js/borsertocss.js
+ERR: 非法操作:js
+
+[ 2015-05-03T19:54:19+08:00 ] 0.0.0.0 /bbs/index.php/Front/Club/js/borsertocss.js
+ERR: 非法操作:js
+
+[ 2015-05-03T19:54:44+08:00 ] 0.0.0.0 /bbs/index.php/Front/Club/js/borsertocss.js
+ERR: 非法操作:js
+
+[ 2015-05-03T19:55:23+08:00 ] 0.0.0.0 /bbs/index.php/Front/Club/js/borsertocss.js
+ERR: 非法操作:js
+
+[ 2015-05-03T19:56:06+08:00 ] 0.0.0.0 /bbs/index.php/Front/Club/js/borsertocss.js
+ERR: 非法操作:js
+
+[ 2015-05-03T19:56:48+08:00 ] 0.0.0.0 /bbs/index.php/Front/Club/js/borsertocss.js
+ERR: 非法操作:js
+
+[ 2015-05-03T19:57:35+08:00 ] 0.0.0.0 /bbs/index.php/Front/Club/js/borsertocss.js
+ERR: 非法操作:js
+
+[ 2015-05-03T19:57:59+08:00 ] 0.0.0.0 /bbs/index.php/Front/Club/js/borsertocss.js
+ERR: 非法操作:js
+
+[ 2015-05-03T19:58:58+08:00 ] 0.0.0.0 /bbs/index.php/Front/Club/js/borsertocss.js
+ERR: 非法操作:js
+
+[ 2015-05-03T19:59:40+08:00 ] 0.0.0.0 /bbs/index.php/Front/Club/js/borsertocss.js
+ERR: 非法操作:js
+
+[ 2015-05-03T19:59:55+08:00 ] 0.0.0.0 /bbs/index.php/Front/Club/js/borsertocss.js
+ERR: 非法操作:js
+
+[ 2015-05-03T20:00:19+08:00 ] 0.0.0.0 /bbs/index.php/Front/Club/js/borsertocss.js
+ERR: 非法操作:js
+
+[ 2015-05-03T20:01:04+08:00 ] 0.0.0.0 /bbs/index.php/Front/Club/js/borsertocss.js
+ERR: 非法操作:js
+
+[ 2015-05-03T20:01:06+08:00 ] 0.0.0.0 /bbs/index.php/Front/Club/js/borsertocss.js
+ERR: 非法操作:js
+
+[ 2015-05-03T20:02:07+08:00 ] 0.0.0.0 /bbs/index.php/Front/Club/js/borsertocss.js
+ERR: 非法操作:js
+
+[ 2015-05-03T20:02:42+08:00 ] 0.0.0.0 /bbs/index.php/Front/Club/js/borsertocss.js
+ERR: 非法操作:js
+
+[ 2015-05-03T20:03:45+08:00 ] 0.0.0.0 /bbs/index.php/Front/Club/js/borsertocss.js
+ERR: 非法操作:js
+
+[ 2015-05-03T20:03:46+08:00 ] 0.0.0.0 /bbs/index.php/Front/Club/js/borsertocss.js
+ERR: 非法操作:js
+
+[ 2015-05-03T20:04:15+08:00 ] 0.0.0.0 /bbs/index.php/Front/Club/js/borsertocss.js
+ERR: 非法操作:js
+

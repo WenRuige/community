@@ -1,0 +1,102 @@
+[ 2015-05-06T07:17:54+08:00 ] 0.0.0.0 /bbs/index.php/System/Index/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-06T07:17:54+08:00 ] 0.0.0.0 /bbs/index.php/System/Index/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-06T07:17:54+08:00 ] 0.0.0.0 /bbs/index.php/System/Index/js/site.js
+ERR: 非法操作:js
+
+[ 2015-05-06T07:17:56+08:00 ] 0.0.0.0 /bbs/index.php/System/Banner/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-06T07:17:56+08:00 ] 0.0.0.0 /bbs/index.php/System/Banner/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-06T07:17:56+08:00 ] 0.0.0.0 /bbs/index.php/System/Banner/js/site.js
+ERR: 非法操作:js
+
+[ 2015-05-06T07:18:14+08:00 ] 0.0.0.0 /bbs/index.php/System/Banner/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-06T07:18:14+08:00 ] 0.0.0.0 /bbs/index.php/System/Banner/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-06T07:18:14+08:00 ] 0.0.0.0 /bbs/index.php/System/Banner/js/site.js
+ERR: 非法操作:js
+
+[ 2015-05-06T07:18:27+08:00 ] 0.0.0.0 /bbs/index.php/System/Banner/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-06T07:18:27+08:00 ] 0.0.0.0 /bbs/index.php/System/Banner/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-06T07:18:27+08:00 ] 0.0.0.0 /bbs/index.php/System/Banner/js/site.js
+ERR: 非法操作:js
+
+[ 2015-05-06T07:19:43+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-06T07:19:43+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-06T07:19:43+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/site.js
+ERR: 非法操作:js
+
+[ 2015-05-06T07:23:38+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-06T07:23:38+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-06T07:23:38+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/site.js
+ERR: 非法操作:js
+
+[ 2015-05-06T07:24:09+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-06T07:24:09+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-06T07:24:09+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/site.js
+ERR: 非法操作:js
+
+[ 2015-05-06T07:27:55+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-06T07:27:55+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-06T07:27:55+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/site.js
+ERR: 非法操作:js
+
+[ 2015-05-06T07:28:27+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-06T07:28:27+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/site.js
+ERR: 非法操作:js
+
+[ 2015-05-06T07:28:27+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-06T07:33:53+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-06T07:33:53+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-06T07:33:53+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/site.js
+ERR: 非法操作:js
+
+[ 2015-05-06T07:40:16+08:00 ] 0.0.0.0 /bbs/index.php/Front/Shownews/index/id/16
+ERR: 无法加载模块:Shownews
+
+[ 2015-05-06T07:52:20+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/jquery.min.js
+ERR: 非法操作:js
+
+[ 2015-05-06T07:52:20+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2015-05-06T07:52:20+08:00 ] 0.0.0.0 /bbs/index.php/System/News/js/site.js
+ERR: 非法操作:js
+
